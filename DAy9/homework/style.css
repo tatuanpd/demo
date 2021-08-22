@@ -1,0 +1,18 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	font-family: "Rotobo";
+	font-size: 1.2rem;
+}
+
+header{
+	max-width: 1140px;
+	margin: 0 auto;
+	line-height: 65px;
+}
+header .slogan,header .logo{
+	float: left;
+}

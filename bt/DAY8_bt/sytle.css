@@ -1,0 +1,223 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: normal;
+}
+body{
+	font-size: 1rem;
+	font-family: sans-serif;
+	text-align: center;
+	
+}
+a{
+	text-decoration: none;
+}
+ul{
+	padding: 0px;
+	margin: 0px;
+	list-style-type: none;
+}
+.container{
+	margin: 0px auto;
+	max-width: 1240px;
+}
+
+header{
+	width: 100%;
+	height: 65px;
+}
+header .container{
+	display: flex;
+	align-items: center;
+	height: 65px;
+}
+header .logo{
+	width: 25%;
+}
+header .logo a{
+	color: #3cb878;
+	text-transform: uppercase;
+	font-weight: bold;
+
+}
+header .menu{
+	width: 60%;
+}
+header .menu ul{
+	display: flex;
+}
+header .menu ul li a{
+	color: #3f4853;
+	padding: 0px 20px;
+	text-transform: uppercase;
+}
+header .menu ul li a:hover{
+	color: #3cb878;
+}
+header .sidebar-top{
+	display: flex;
+}
+header .sidebar-top a {
+	display: block;
+	width: 30px;
+	margin-right: 15px;
+	position: relative;
+}
+header .sidebar-top a:nth-child(1) span{
+	display: block;
+	width: 20px;
+	height: 20px;
+	background:#3cb878; 
+	position: absolute;
+	top: -11px;
+	right: 0px;
+	border-radius: 50%;
+	color: #FFF;
+	line-height: 20px;
+
+}
+
+.slider,.slider-item{
+	max-width: 100%;
+	height: 560px;
+}
+.slider-item{
+	position: relative;
+}
+.slider-item h2{
+	position: absolute;
+	top: 50%;
+	right: 57%;
+	color: #333;
+	font-size: 3rem;
+	text-transform: uppercase;
+	letter-spacing: 8px;
+}
+.slider-item h2 small{
+	display: block;
+	color: #3cb878;
+}
+.slider-item img {
+	max-width: 100%;
+	width: 100%;
+}
+.best-seller{
+	width: 100%;
+	margin-top: 100px;
+	display: block;
+}
+ul.product-list{
+	display: flex;
+}
+ul.product-list li{
+	width: 20%;
+	position: relative;
+}
+ul.product-list li a {
+	display: block;
+	color:#333 ;
+	font-size: 1rem;
+}
+ul.product-list li p {
+	color: #3cb878;
+	padding-top: 10px;
+
+}
+ul.product-list li img {
+	max-width: 220px;
+}
+ul.product-list li.introduce{
+	justify-content: center;
+	display: flex;
+	flex-direction: column;
+}
+ul.product-list li h2{
+	text-transform: uppercase;
+	color: #333;
+}
+ul.product-list li small{
+	color: #3cb878;
+}
+ul.product-list li.introduce p{
+	color: #ccc;
+	font-size:.9rem ;
+	max-width: 200px;
+}
+ul.product-list li div.buy{
+	display: flex;
+	flex-direction: column;
+	position: absolute;
+	top: 0px;
+	right: 25px;
+}
+ul.product-list li div.buy a{
+	display: block;
+	width: 25px;
+	height: 25px ;
+	background: #3cb878 url(../DAY8_bt/img/buy.png) no-repeat;
+}
+ul.product-list li div.buy a:nth-child(1){
+	background-position: 1px 5px;
+}
+ul.product-list li div.buy a:nth-child(2){
+	background-position: 1px -45px;
+}
+ul.product-list li div.buy a:nth-child(3){
+	background-position: 1px -100px;
+}
+
+/*shipping*/
+.shiping{
+	background: #f5f6f9;
+	margin-top: 60px;
+	padding: 50px 0px;
+}
+.shiping ul{
+	display: flex;
+}
+.shiping ul li{
+	width: 25%;
+	text-align: center;
+}
+.shiping ul li h2{
+	font-size: .8rem;
+	text-transform: uppercase;
+}
+.shiping ul li small{
+	font-size: .7rem;
+	color:#888 ;
+}
+
+.promotion{
+	background-color: #2e3348;
+}
+.promotion ul{
+	display: flex;
+	justify-content: space-between;
+}
+.promotion ul li{
+	width:30% ;
+	text-align: center;
+	display:block ;
+	padding: 40px 0px;
+}
+.promotion ul li img{
+	width:80% ;
+}
+.promotion ul li:nth-child(2){
+	background: #34394f;
+}
+.feature-product{
+	margin-top: 50px;
+	max-width: 100%;
+}
+.feature-product h2{
+	text-transform: uppercase;
+}
+.feature-product small{
+	font-size: .7rem;
+	color: #3cb878;
+}
+.feature-product ul{
+	margin-top: 30px;
+}
